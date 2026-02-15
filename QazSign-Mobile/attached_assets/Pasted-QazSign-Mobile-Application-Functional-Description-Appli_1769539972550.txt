@@ -1,0 +1,106 @@
+QazSign Mobile Application — Functional Description
+Application Overview
+
+QazSign is a mobile application designed to support learning, searching, and translating Kazakh Sign Language (KSL).
+The app serves as the main user interface of the project and is built to be simple, accessible, and scalable for future integrations.
+
+The application focuses on:
+
+a Kazakh Sign Language dictionary
+
+search and learning tools
+
+a camera-based translation interface
+
+clear visual separation between gesture input and text output
+
+Core Functional Requirements
+1. Kazakh Sign Language Dictionary
+
+The application must include a built-in KSL dictionary.
+
+Functions:
+
+Store a database of KSL gestures
+
+Each dictionary entry includes:
+
+word in Kazakh
+
+visual demonstration of the gesture (video or animation)
+
+short textual description (optional)
+
+Allow users to browse gestures by category or alphabet
+
+Work offline for basic dictionary access (optional)
+
+2. Search and Learning System
+
+The app must provide an intuitive search and learning interface.
+
+Functions:
+
+Search gestures by:
+
+Kazakh word
+
+keyword
+
+Display matching gestures instantly
+
+Open a dedicated learning page for each gesture
+
+Allow repeated viewing for learning and practice
+
+3. Camera Translation Interface
+
+The application must include a translation screen with two main visual areas:
+
+Layout requirements:
+
+Camera window
+Displays live video from the device camera
+
+Translation window
+Displays the recognized word or phrase as text
+
+Functions:
+
+Start / stop camera capture
+
+Show real-time video preview
+
+Display translated text clearly and in large font
+
+Allow copying or clearing translated text
+
+(Gesture recognition logic will be integrated later; the interface must be prepared for it.)
+
+4. User Interface and Accessibility
+
+The application must be designed for accessibility and ease of use.
+
+Requirements:
+
+Clean, minimal interface
+
+Large buttons and readable fonts
+
+High-contrast mode (optional)
+
+Clear visual feedback for user actions
+
+5. Scalability and Future Integration
+
+The application architecture must support future expansion.
+
+Prepared features:
+
+Integration with external devices (e.g., smart glasses)
+
+Support for additional sign languages
+
+Updates to dictionary content without full app reinstall
+
+Multi-language text output (future feature)
